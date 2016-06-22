@@ -4,7 +4,7 @@
 #
 ######################################################################################
 
-TITLE = "Putlocker"
+TITLE = "Putlocker-TREEVersion"
 PREFIX = "/video/putlocker"
 ART = "art-default.jpg"
 ICON = "icon-default.png"
@@ -54,6 +54,7 @@ def MainMenu():
 	container.add(DirectoryObject(key = Callback(ShowCategory, title="Added Today", category="today", page_count = 1), title = "Added Today", thumb = R(ICON_MOVIES)))
 	container.add(DirectoryObject(key = Callback(ShowCategory, title="Added Yesterday", category="yesterday", page_count = 1), title = "Added Yesterday", thumb = R(ICON_MOVIES)))
 	container.add(DirectoryObject(key = Callback(ShowCategory, title="Featured", category="featured", page_count = 1), title = "Featured", thumb = R(ICON_MOVIES)))
+	container.add(DirectoryObject(key = Callback(ShowCategory, title="2016", category="year/2016", page_count = 1), title = "2016", thumb = R(ICON_MOVIES)))
 	container.add(DirectoryObject(key = Callback(ShowCategory, title="2015", category="year/2015", page_count = 1), title = "2015", thumb = R(ICON_MOVIES)))
 	container.add(DirectoryObject(key = Callback(ShowCategory, title="2014", category="year/2014", page_count = 1), title = "2014", thumb = R(ICON_MOVIES)))
 	container.add(DirectoryObject(key = Callback(ShowCategory, title="2013", category="year/2013", page_count = 1), title = "2013", thumb = R(ICON_MOVIES)))
